@@ -50,6 +50,15 @@ If you want to distribute your extension via the Chrome Web Store:
    - Zip your extension’s files (including the `manifest.json`).
    - Upload it to the Chrome Web Store for review.
 
+# Default settings
+
+Loading files from http://127.0.0.1:5743/
+
+# Version history
+
+v2.7.3  
+- updated for Chrome v3  
+
 # Credits
 
 Witchcraft is my rendition of [defunkt](//github.com/defunkt)'s original extension, [dotjs](//github.com/defunkt/dotjs). Although I never got to actually use dotjs (it only worked for MacOS and the installation process was not easy), I really wanted something like that. Thanks, defunkt, for having such a cool idea.

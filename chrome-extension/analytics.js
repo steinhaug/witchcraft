@@ -11,7 +11,7 @@ class Analytics {
     constructor () {
         // https://developers.google.com/analytics/devguides/collection/analyticsjs/tracking-snippet-reference#alternative-async-tag
         window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=(new Date()).getTime();
-        ga("create", "UA-159294933-1", "auto");
+        ga("create", "G-8ZC36LC0HH", "auto");
         ga("set", "checkProtocolTask", null);  // https://stackoverflow.com/a/56442610/778272
         ga("set", "appName", chrome.runtime.getManifest().short_name);
         ga("set", "appVersion", chrome.runtime.getManifest().version);
