@@ -21,7 +21,7 @@
 body {
     background-color: var(--background-color);
     font-size: 10px;
-    min-width: 300px;
+    min-width: 200px;
 }
 
 body, a {
@@ -90,18 +90,9 @@ td.css {
     display: inline-block;
 }
 
-.row input , .row textarea{
+.row input {
     width: calc(100% - var(--panel-label-width) - 2 * var(--panel-label-padding) - 2 * var(--container-margin));
     display: inline-block;
-    background-color: white;
-}
-
-input.invalid, textarea.invalid{
-    background-color: indianred;
-}
-
-#directive-hint{
-    font-size : 0.8em
 }
 
 .row.right {

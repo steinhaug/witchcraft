@@ -1,6 +1,10 @@
 {
   "name": "witchcraft",
+<<<<<<< HEAD
   "version": "2.7.2",
+=======
+  "version": "2.6.1",
+>>>>>>> 571723ea91c0650a8541619025d4c7250d4af733
   "description": "![Witchcraft](docs/title.png)",
   "main": "index.js",
   "directories": {
@@ -17,7 +21,11 @@
   },
   "repository": {
     "type": "git",
+<<<<<<< HEAD
     "url": "git+https://github.com/steinhaug/witchcraft.git"
+=======
+    "url": "git+https://github.com/luciopaiva/witchcraft.git"
+>>>>>>> 571723ea91c0650a8541619025d4c7250d4af733
   },
   "keywords": [],
   "author": "",
@@ -25,10 +33,16 @@
   "bugs": {
     "url": "https://github.com/luciopaiva/witchcraft/issues"
   },
+<<<<<<< HEAD
   "homepage": "https://github.com/steinhaug/witchcraft#readme",
   "devDependencies": {
     "jsdom": "^25.0.1",
     "mocha": "^8.4.0",
+=======
+  "homepage": "https://github.com/luciopaiva/witchcraft#readme",
+  "devDependencies": {
+    "mocha": "^8.1.3",
+>>>>>>> 571723ea91c0650a8541619025d4c7250d4af733
     "nyc": "^14.1.1",
     "sinon": "^7.5.0",
     "sinon-chrome": "^3.0.1"
